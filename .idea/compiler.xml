@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="pro-spring-book.chapter2.main" target="1.8" />
+      <module name="pro-spring-book.chapter2.test" target="1.8" />
+      <module name="pro-spring-book.hello-world.main" target="1.8" />
+      <module name="pro-spring-book.hello-world.test" target="1.8" />
+      <module name="pro-spring-book.main" target="1.8" />
+      <module name="pro-spring-book.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

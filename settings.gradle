@@ -1,0 +1,11 @@
+rootProject.name = 'pro-spring-book'
+
+include 'chapter2:hello-world'
+
+
+rootProject.children.each { project ->
+    project.buildFileName = "${project.name}.gradle"
+    assert project.projectDir.isDirectory()
+    assert project.buildFile.exists()
+    assert project.buildFile.isFile()
+}
