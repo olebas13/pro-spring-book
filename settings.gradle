@@ -2,6 +2,9 @@ rootProject.name = 'pro-spring-book'
 
 include 'chapter2:hello-world'
 
+include 'chapter3:dependency-pull'
+include 'chapter3:cdl'
+
 
 rootProject.children.each { project ->
     project.buildFileName = "${project.name}.gradle"
@@ -9,3 +12,6 @@ rootProject.children.each { project ->
     assert project.buildFile.exists()
     assert project.buildFile.isFile()
 }
+include 'chapter3:cdl'
+findProject(':chapter3:cdl')?.name = 'cdl'
+

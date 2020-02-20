@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="pro-spring-book.chapter2.main" target="1.8" />
       <module name="pro-spring-book.chapter2.test" target="1.8" />
+      <module name="pro-spring-book.chapter3.main" target="1.8" />
+      <module name="pro-spring-book.chapter3.test" target="1.8" />
       <module name="pro-spring-book.hello-world.main" target="1.8" />
       <module name="pro-spring-book.hello-world.test" target="1.8" />
       <module name="pro-spring-book.main" target="1.8" />

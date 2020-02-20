@@ -1,0 +1,16 @@
+dependencies {
+    compile project(':chapter2:hello-world')
+    compile spring.context, misc.slf4jJcl, misc.logback
+    testCompile testing.junit
+}
+
+jar {
+    manifest {
+        attributes(
+                "Created-By": "olebas",
+                "Specification-Title": "Learn Spring",
+                "Main-Class" : "com.olebas.prospring.ch3.DependencyPull",
+                "Class-Path": configurations.compile.collect { it.getName() }.join(' ')
+        )
+    }
+}

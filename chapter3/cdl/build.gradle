@@ -1,0 +1,8 @@
+jar {
+    manifest {
+        attributes("Created-By"      : "olebas",
+                "Specification-Title": "Learn Spring",
+                "Main-Class"         : "com.olebas.prospring.ch3.CDLDemo",
+                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+    }
+}
